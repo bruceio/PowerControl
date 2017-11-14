@@ -7,9 +7,6 @@ if __name__ == '__main__':
     IO.setwarnings(False)
     IO.setmode(IO.BCM)
     IO.setup(High_CHANNEL, IO.OUT)
-   
-    IO.output(High_CHANNEL, 1)
-    
     
     '''
     # Software SPI Setup.
@@ -24,6 +21,7 @@ if __name__ == '__main__':
     measure.close()
     
     '''
+    IO.output(High_CHANNEL, 1)
     
    
     
